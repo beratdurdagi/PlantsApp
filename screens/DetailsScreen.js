@@ -18,7 +18,7 @@ const DetailsScreen = () => {
   const navigation = useNavigation();
   const route = useRoute();
   const [count, setCount] = useState(0);
-  const [price, setPrice] = useState(0);
+
 
   return (
     <SafeAreaView
@@ -147,7 +147,7 @@ const DetailsScreen = () => {
               fontSize: 18,
               fontWeight: "bold",
             }}
-            onPress={()=>{alert("Satın Alma Başarılı")}}
+            onPress={()=>{alert("Satın Alma Başarılı");}}
           >
             Buy
           </Text>
